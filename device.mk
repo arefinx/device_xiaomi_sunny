@@ -343,6 +343,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 PRODUCT_PACKAGES += \
     CarrierConfigSunny \
+    DisableQTIAppsSunny \
     DisplayFeaturesSunny \
     FrameworksSunny \
     GenesisSunny \
