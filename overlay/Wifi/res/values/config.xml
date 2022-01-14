@@ -57,4 +57,7 @@
 
     <!-- Indicates that wifi link probing is supported on this device -->
     <bool name="config_wifi_link_probing_supported">true</bool>
+
+    <!-- Indicate the device support request channel on Wi-Fi Aware data-path. -->
+    <bool name="config_wifiSupportChannelOnDataPath" translatable="false">true</bool>
 </resources>
