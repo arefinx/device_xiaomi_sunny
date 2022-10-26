@@ -203,6 +203,9 @@ ro.vendor.qspm.enable=true
 vendor.pasr.activemode.enabled=true
 vendor.power.pasr.enabled=true
 
+# Phantom process monitoring
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # QCA1530 detection
 sys.qca1530=detect
 
