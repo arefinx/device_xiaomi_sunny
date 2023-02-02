@@ -352,7 +352,9 @@ PRODUCT_PACKAGES += \
     SettingsSunny \
     SystemUISunny \
     TelephonySunny \
-    WifiSunny
+    WifiSunny \
+    SettingsOverlayM2101K7AG \
+    SettingsOverlayM2101K7AI
 
 # Perf
 PRODUCT_PACKAGES += \
