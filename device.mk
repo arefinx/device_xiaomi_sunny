@@ -203,6 +203,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/dolby/privapp-com.dolby.daxappui.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-com.dolby.daxappui.xml \
     $(LOCAL_PATH)/dolby/privapp-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-com.dolby.daxservice.xml
 
+# DisplayFeatures
+PRODUCT_PACKAGES += \
+    DisplayFeatures
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0.vendor \
@@ -351,6 +355,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 PRODUCT_PACKAGES += \
     CarrierConfigSunny \
+    DisplayFeaturesSunny \
     FrameworksSunny \
     SettingsProviderSunny \
     SettingsSunny \
