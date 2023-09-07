@@ -1,7 +1,0 @@
-# Hexagon DSP-side executable needed for Halide operation
-# This is labeled as public_adsprpcd_file as it needs to be read by apps
-# (e.g. Google Camera App)
-/mnt/vendor/dsp/fastrpc_shell_3                                         u:object_r:public_adsprpcd_file:s0
-
-# Label read_ahead_kb in /data partition
-/sys/devices/platform/soc/1d84000.ufshc/host0/target0:0:0/0:0:0:0/block/sda/queue/read_ahead_kb u:object_r:vendor_sysfs_scsi_host:s0
