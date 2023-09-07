@@ -630,6 +630,26 @@
         <item>10</item>
     </integer-array>
 
+    <!-- Vibrator pattern for feedback when selecting an hour/minute tick of a Clock -->
+    <integer-array name="config_clockTickVibePattern">
+        <item>25</item>
+        <item>30</item>
+    </integer-array>
+
+    <!-- Vibrator pattern for feedback when selecting a day/month/year date of a Calendar -->
+    <integer-array name="config_calendarDateVibePattern">
+        <item>25</item>
+        <item>30</item>
+    </integer-array>
+
+    <!-- Vibrator pattern for feedback about booting with safe mode enabled -->
+    <integer-array name="config_safeModeEnabledVibePattern">
+        <item>0</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
+    </integer-array>
+
     <!-- reference volume index for music stream to limit headphone volume and display warning -->
     <integer name="config_safe_media_volume_index">17</integer>
 
