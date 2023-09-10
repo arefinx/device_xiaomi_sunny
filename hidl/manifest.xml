@@ -342,4 +342,10 @@
         <transport>hwbinder</transport>
         <fqname>@1.0::IWifiStats/wifiStats</fqname>
     </hal>
+    <!-- Dolby -->
+    <hal format="hidl">
+        <name>vendor.dolby.hardware.dms</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IDms/default</fqname>
+    </hal>
 </manifest>
