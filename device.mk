@@ -434,6 +434,11 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/wlan \
     kernel/xiaomi/sunny
 
+# Task Profiles
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/profiles/task_profiles_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
+    $(LOCAL_PATH)/profiles/cgroups_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json
+
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
