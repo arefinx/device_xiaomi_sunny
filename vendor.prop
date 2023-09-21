@@ -244,8 +244,13 @@ persist.vendor.radio.snapshot_timer=5
 # Skia
 renderthread.skia.reduceopstasksplitting=true
 
-# Soc
+# SoC
 ro.soc.manufacturer=QTI
+
+# Spatial audio
+ro.audio.spatializer_enabled=true
+ro.audio.spatializer_transaural_enabled_default=false
+persist.vendor.audio.spatializer.speaker_enabled=true
 
 # Thermal
 vendor.sys.thermal.data.path=/data/vendor/thermal/
