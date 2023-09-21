@@ -119,6 +119,9 @@ vendor/etc/init/vendor.qti.cdsprpc-service.rc
 -vendor/lib/libssrec.so
 -vendor/lib/libsurround_3mic_proc.so
 
+# Audio FX modules - from cheetah TQ3A.230705.001
+vendor/lib/soundfx/libspatialaudio.so|b26727b8887dad56f5e183f7145487c88bd2f065
+
 # Audio HAL
 -vendor/lib/hw/audio.primary.sm6150.so
 -vendor/lib/libaudio_log_utils.so
