@@ -160,6 +160,7 @@ debug.sf.disable_client_composition_cache=1
 ro.vendor.display.sensortype=2
 ro.vendor.display.svi=1
 ro.vendor.display.type=oled
+persist.sys.sf.native_mode=1
 sys.displayfeature_hidl=true
 vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
 vendor.display.disable_decimation=1
