@@ -565,6 +565,7 @@ vendor/lib64/soundfx/libswdap.so|a468c839bd18e31d50f92d371dbd079374667068
 vendor/lib64/soundfx/libswgamedap.so|0491096a45e14d8097ceb80c15c0f946bbade389
 vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|da03a56f6fbeb2bbe23ebb3a48b30fc3e5e76da3
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so|45ab26d743b6a56b505447012347493ff41057fc
+vendor/lib/soundfx/libhaptic_effect.so
 
 # DPM
 framework/tcmclient.jar
