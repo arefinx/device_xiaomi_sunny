@@ -1,6 +1,6 @@
 runtime_resource_overlay {
-    name: "MojitoCarrierConfig",
-    theme: "MojitoCarrierConfig",
+    name: "SettingsSunny",
+    theme: "SettingsSunny",
     sdk_version: "current",
     vendor: true,
 }

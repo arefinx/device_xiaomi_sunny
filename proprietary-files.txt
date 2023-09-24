@@ -261,7 +261,7 @@ vendor/lib64/camera/fdconfigvideolite.bin
 -vendor/lib64/libdng_sdk2vendor.so
 -vendor/lib64/libft2vendor.so
 -vendor/lib64/libhvx_interface.so
--vendor/lib64/libmegface.so;MODULE=libmegface_mojito
+-vendor/lib64/libmegface.so;MODULE=libmegface_sunny
 -vendor/lib64/libmiStereoFactoryRemapLib.so
 -vendor/lib64/libmiai_portraitsupernight.so
 -vendor/lib64/libmiai_supernight.so
@@ -272,7 +272,7 @@ vendor/lib64/camera/fdconfigvideolite.bin
 -vendor/lib64/libmialgo_utils.so
 -vendor/lib64/libmialgoengine.so
 -vendor/lib64/libmibokeh_712.so
--vendor/lib64/libmpbase.so;MODULE=libmpbase_mojito
+-vendor/lib64/libmpbase.so;MODULE=libmpbase_sunny
 -vendor/lib64/libremosaic_wrapper.so
 -vendor/lib64/libremosaiclib.so
 -vendor/lib64/libsdk_sr.so
@@ -590,9 +590,9 @@ vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 -vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
 # Fingerprint
--vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.mojito
+-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.sunny
 vendor/etc/permissions/com.fingerprints.extension.xml
--vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml:vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.mojito.xml
+-vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml:vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.sunny.xml
 -vendor/framework/com.fingerprints.extension.jar
 -vendor/lib64/hw/fingerprint.fpc.default.so
 -vendor/lib64/com.fingerprints.extension@1.0.so

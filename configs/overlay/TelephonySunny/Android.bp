@@ -1,6 +1,6 @@
 runtime_resource_overlay {
-    name: "MojitoSettingsProvider",
-    theme: "MojitoSettingsProvider",
+    name: "TelephonySunny",
+    theme: "TelephonySunny",
     sdk_version: "current",
     vendor: true,
 }

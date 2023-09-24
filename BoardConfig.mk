@@ -6,7 +6,7 @@
 
 BOARD_VENDOR := xiaomi
 
-DEVICE_PATH := device/xiaomi/mojito
+DEVICE_PATH := device/xiaomi/sunny
 
 # A/B
 AB_OTA_UPDATER := true
@@ -94,7 +94,7 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_mojito
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_sunny
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 3
@@ -113,8 +113,8 @@ BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += kpti=off
 BOARD_KERNEL_CMDLINE += androidboot.fstab_suffix=qcom
 
-TARGET_KERNEL_CONFIG := mojito_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/mojito
+TARGET_KERNEL_CONFIG := sunny_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sunny
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     LLVM=1 \
     LLVM_IAS=1
@@ -226,4 +226,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
-include vendor/xiaomi/mojito/BoardConfigVendor.mk
+include vendor/xiaomi/sunny/BoardConfigVendor.mk

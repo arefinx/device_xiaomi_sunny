@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),mojito)
+ifeq ($(TARGET_DEVICE),sunny)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

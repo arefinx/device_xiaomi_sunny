@@ -336,14 +336,13 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    MojitoCarrierConfig \
-    MojitoFrameworks \
-    MojitoMaintainer \
-    MojitoSettingsProvider \
-    MojitoSettings \
-    MojitoSystemUI \
-    MojitoTelephony \
-    MojitoWifi
+    CarrierConfigSunny \
+    FrameworksSunny \
+    SettingsProviderSunny \
+    SettingsSunny \
+    SystemUISunny \
+    TelephonySunny \
+    WifiSunny
 
 # Perf
 PRODUCT_PACKAGES += \
@@ -370,9 +369,9 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     fstab.zram \
     fstab.qcom \
-    init.mojito.rc \
     init.qcom.rc \
     init.recovery.qcom.rc \
+    init.sunny.rc \
     init.target.rc \
     ueventd.qcom.rc
 
@@ -522,4 +521,4 @@ PRODUCT_CFI_INCLUDE_PATHS += \
     hardware/qcom-caf/wlan/qcwcn/wpa_supplicant_8_lib
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)
+$(call inherit-product, vendor/xiaomi/sunny/sunny-vendor.mk)
