@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sunny.mk
+    $(LOCAL_DIR)/aosp_sunny.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_sunny-user \
-    lineage_sunny-userdebug \
-    lineage_sunny-eng
+    aosp_sunny-user \
+    aosp_sunny-userdebug \
+    aosp_sunny-eng
