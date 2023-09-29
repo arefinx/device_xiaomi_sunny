@@ -84,6 +84,9 @@ TARGET_USES_HWC2 := true
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
+# Firmware
+-include vendor/xiaomi/sunny-firmware/BoardConfigVendor.mk
+
 # FM
 BOARD_HAVE_QCOM_FM := true
 
