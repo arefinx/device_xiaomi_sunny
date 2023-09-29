@@ -357,6 +357,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigSunny \
     DisplayFeaturesSunny \
     FrameworksSunny \
+    ProtonSunny \
     SettingsProviderSunny \
     SettingsSunny \
     SystemUISunny \
