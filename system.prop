@@ -1,6 +1,3 @@
-# Charger
-ro.charger.enable_suspend=true
-
 # Deep Sleep
 pm.sleep_mode=1
 vendor.post_boot.parsed=1
