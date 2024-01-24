@@ -247,6 +247,7 @@ renderthread.skia.reduceopstasksplitting=true
 
 # SoC
 ro.soc.manufacturer=QTI
+ro.soc.model=SM6150
 
 # Spatial audio
 ro.audio.spatializer_enabled=true
