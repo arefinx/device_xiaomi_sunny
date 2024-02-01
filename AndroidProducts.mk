@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sunny.mk
+    $(LOCAL_DIR)/genesis_sunny.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_sunny-user \
-    lineage_sunny-userdebug \
-    lineage_sunny-eng
+    genesis_sunny-user \
+    genesis_sunny-userdebug \
+    genesis_sunny-eng

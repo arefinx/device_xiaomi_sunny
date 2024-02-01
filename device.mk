@@ -359,6 +359,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigSunny \
     DisplayFeaturesSunny \
     FrameworksSunny \
+    GenesisSunny \
     SettingsProviderSunny \
     SettingsSunny \
     SystemUISunny \
