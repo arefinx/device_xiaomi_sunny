@@ -343,7 +343,6 @@ PRODUCT_PACKAGES += \
     DisableQTIAppsSunny \
     DisplayFeaturesSunny \
     FrameworksSunny \
-    GenesisSunny \
     SettingsProviderSunny \
     SettingsSunny \
     SystemUISunny \
